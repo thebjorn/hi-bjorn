@@ -1,14 +1,9 @@
 {
   "name": "hi-bjorn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webcomponent lib test",
   "type": "module",
   "module": "index.js",
-  "main": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./hi-bjorn.js": "./hi-bjorn.js"
-  },
   "scripts": {
     "test": "web-test-runner --coverage"
   },

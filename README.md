@@ -9,6 +9,14 @@ The component class is in src/hi-bjorn.js, and it it tested using web-test-runne
 `./hi-bjorn.js` contains code the registers the component class as a 
 custom element.
 
+## package.json
+**important:** `package.json::type == "module"` is required for the import to work.
+
+```json
+  "type": "module",
+  "module": "index.js",
+```
+
 ## Usage html
 
 Install the package using npm or yarn.
